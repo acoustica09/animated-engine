@@ -7,18 +7,15 @@ USER INSTRUCTIONS: Use the keyboard or mouse to play the piano.
 
 Member Classes and visualization:
 -Camille Otillio:
--Chandler Clarke:
+-Chandler Clarke:  Randomized Rectangles that move in crazy ways.
 Tyler Bakeman:
 Marlene Inoue:
 Phil Jepkes:
 
 Member classes with arrays and the data contained:
--Ed Parrish array in Leaf.java for colors
--Emma Programmer array in Triangle.java for spining speeds.
--Justa Member: Rectangle.java array of colors for sparkle
--Leeroy Jenkins: No code submitted.
+-Chandler Clarke array in Suprise.java for random colors.
 
-Instructions to produce visualizations:
+Keys to produce visualizations:
 -Chandler = w,t,u,p
 -Camille = e,y,o,]
 -Tyler = a,f,j,;
