@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Shape
+comment0.text=\r\n\ Some\ sort\ of\ shape\ that\ appears\ at\ the\ top\ of\ the\ world\ and\ moves\ down\ \r\n\ to\ the\ keys\ as\ it\ fading\ away\r\n\ \r\n\ @author\ Marlene\ Inoue\r\n\ @version\ 1.0\ 23\ October\ 2018\r\n
+comment1.params=
+comment1.target=Shape()
+comment1.text=\r\n\ \r\n
+comment2.params=width\ height\ color
+comment2.target=Shape(int,\ int,\ greenfoot.Color)
+comment2.text=\r\n\ \r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Shape\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=4

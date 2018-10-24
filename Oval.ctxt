@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Oval
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Oval\ here.\r\n\ \r\n\ @author\ Marlene\ Inoue\ \r\n\ @version\ 1.0\ 18\ October\ 2018\r\n
+comment1.params=
+comment1.target=Oval()
+comment1.text=\r\n\ Default\ Oval\ Constructor\r\n
+comment2.params=width\ height\ color
+comment2.target=Oval(int,\ int,\ greenfoot.Color)
+comment2.text=\r\n\ Oval\ Constructor\r\n\r\n\ @param\ width\ \ The\ width\ of\ the\ oval.\r\n\ @param\ height\ \ The\ height\ of\ the\ oval.\r\n\ @param\ color\ \ The\ color\ of\ the\ oval.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Oval\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=4
