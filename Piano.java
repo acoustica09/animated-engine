@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
 public class Piano extends World {
     public static final int SCREEN_HEIGHT = 340;
     private String[] whiteKeys =
-        {"a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'", "\\",};
+        {"a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'", "enter",};
     private String[] whiteNotes =
         {"2c", "2d", "2e", "2f", "2g", "2a", "2b", "3c", "3d", "3e", "3f", "3g",};
     private String[] blackKeys =
@@ -47,8 +47,7 @@ public class Piano extends World {
     public void makeKeys() {
         //white keys
         for (int i = 0; i < whiteKeys.length; i++) {
-            Key key = new Key(whiteKeys[i], whiteNotes[i] + ".wav",
-                    "white-key.png", "white-key-down.png");
+            Key key = new Key(whiteKeys[i], whiteNotes[i] + ".wav","white-key.png", "white-key-down.png");
             key.setVisualizer(screen);
             key.setColor(Color.RED);
             addObject(key, (i * 63) + 54, 140 + SCREEN_HEIGHT);

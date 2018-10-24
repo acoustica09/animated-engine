@@ -77,7 +77,6 @@ public class Key extends Actor {
      */
     public void play() {
         Greenfoot.playSound(sound);
-
         if (screen != null) {
             screen.visualize(this);
         }
@@ -103,6 +102,10 @@ public class Key extends Actor {
         if (Greenfoot.mouseClicked(null)) {
             setImage(keyUp);
         }
+    }
+    
+    public String getString(){
+        return this.key;
     }
 
 }

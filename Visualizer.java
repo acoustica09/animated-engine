@@ -22,42 +22,58 @@ public class Visualizer extends Actor {
      * @param k The key that was played.
      */
     public void visualize(Key k) {
-        int width = k.getImage().getWidth();
-        int x = k.getX();
-        int drawHeight = image.getHeight() - width / 2;
-        int y = Greenfoot.getRandomNumber(drawHeight) + width / 4;
+        String keyString = k.getString();
+        //for even black keys @Chandler
+        if (keyString == "w"|| keyString == "t"|| keyString == "u"|| keyString == "p"){  
+            int width = k.getImage().getWidth();
+            int x = k.getX();
+            int drawHeight = image.getHeight() - width / 2;
+            int y = Greenfoot.getRandomNumber(drawHeight) + width / 4;
+            Color color = k.getColor();
+            Suprise suprise = new Suprise(width, width/2);
+            getWorld().addObject(suprise, x, y);
 
-        Color color = k.getColor();
-        Oval shape = new Oval(width, width / 2, color);
-        getWorld().addObject(shape, x, y);
-
-        GreenfootImage image = new GreenfootImage(50, 50);
-        image.setColor(color);
-        //int[] x1 = {50, 100, 150, 150, 50};
-        //int[] y1 = {130, 100, 150, 160, 160};
-        image.fill();
-        int[] x1 = {130, 180, 195, 230, 280, 240, 220, 195, 155, 170};
-        int[] y1 = {100, 100, 0, 100, 100, 150, 200, 175, 200, 150};
-        image.fillPolygon(x1, y1, x1.length);
-        
-        /**
-        // Following is the visualization code
-        if (image.getColor().equals(Color.MAGENTA)) {
-        image.setColor(Color.CYAN);
         }
-        else {
-        image.setColor(Color.MAGENTA);
+        //For every Black starting on the second @Camille
+        if (keyString == "e"|| keyString == "y" || keyString == "o" || keyString == "]"){ 
+            int width = k.getImage().getWidth();
+            int x = k.getX();
+            int drawHeight = image.getHeight() - width / 2;
+            int y = Greenfoot.getRandomNumber(drawHeight) + width / 4;
+            Color color = k.getColor();
+            Oval shape = new Oval(width, width / 2, color);
+            getWorld().addObject(shape, x, y);
         }
-        
-        image.fill();
-        image.drawLine(0, 0, 49, 49);
-        image.drawRect(0, 0, 30, 30);
-        image.fillOval(20, 20, 29, 29);
-
-        int[] x1 = {100, 200, 200};
-        int[] y1 = {100, 100, 200};
-        image.fillPolygon(x1, y1, x1.length);
-         */
+        //For every 3rd white key starting on the first @Tyler
+        if (keyString == "a"|| keyString == "f" || keyString == "j" || keyString == ";"){ 
+            int width = k.getImage().getWidth();
+            int x = k.getX();
+            int drawHeight = image.getHeight() - width / 2;
+            int y = Greenfoot.getRandomNumber(drawHeight) + width / 4;
+            Color color = k.getColor();
+            Oval shape = new Oval(width, width / 2, color);
+            getWorld().addObject(shape, x, y);
+        }
+        //For every 3rd white key starting on the second @Marlene
+        if (keyString == "s"|| keyString == "g" || keyString == "k" || keyString == "'"){ 
+            int width = k.getImage().getWidth();
+            int x = k.getX();
+            int drawHeight = image.getHeight() - width / 2;
+            int y = Greenfoot.getRandomNumber(drawHeight) + width / 4;
+            Color color = k.getColor();
+            Shape shape = new Shape(width, width / 2, color);
+            getWorld().addObject(shape, x, y);
+        }
+        //For every 3rd white key starting on the third @Phil
+        if (keyString == "d"|| keyString == "h" || keyString == "l" || keyString == "enter"){ 
+            int width = k.getImage().getWidth();
+            int x = k.getX();
+            int drawHeight = image.getHeight() - width / 2;
+            int y = Greenfoot.getRandomNumber(drawHeight) + width / 4;
+            Color color = k.getColor();
+            Oval shape = new Oval(width, width / 2, color);
+            getWorld().addObject(shape, x, y);
+        }
     }
 
     /**

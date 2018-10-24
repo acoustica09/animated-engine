@@ -23,4 +23,6 @@ comment7.text=\r\n\ Play\ the\ note\ of\ this\ key.\r\n
 comment8.params=
 comment8.target=void\ act()
 comment8.text=\r\n\ Do\ the\ action\ for\ this\ key.\r\n
-numComments=9
+comment9.params=
+comment9.target=java.lang.String\ getString()
+numComments=10
