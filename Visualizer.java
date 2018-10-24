@@ -25,7 +25,7 @@ public class Visualizer extends Actor {
         String keyString = k.getString();
         //for even black keys @Chandler
         if (keyString == "w"|| keyString == "t"|| keyString == "u"|| keyString == "p"){  
-            int width = k.getImage().getWidth();
+            int width = Greenfoot.getRandomNumber(100)+2;
             int x = k.getX();
             int drawHeight = image.getHeight() - width / 2;
             int y = Greenfoot.getRandomNumber(drawHeight) + width / 4;
