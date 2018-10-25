@@ -40,8 +40,13 @@ public class Visualizer extends Actor {
             int drawHeight = image.getHeight() - width / 2;
             int y = Greenfoot.getRandomNumber(drawHeight) + width / 4;
             Color color = k.getColor();
+<<<<<<< HEAD
             Triangles shape = new Triangles(width, width / 2);
             getWorld().addObject(shape, x, y);
+=======
+            Triangles triangles = new Triangles (width, width / 2);
+            getWorld().addObject(triangles, x, y);
+>>>>>>> 1dc7bac7d9a601f430d6c36c6cf4157cf5b3001c
         }
         //For every 3rd white key starting on the first @Tyler
         if (keyString == "a"|| keyString == "f" || keyString == "j" || keyString == ";"){ 
