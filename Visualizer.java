@@ -32,7 +32,6 @@ public class Visualizer extends Actor {
             Color color = k.getColor();
             Suprise suprise = new Suprise(width, width/2);
             getWorld().addObject(suprise, x, y);
-
         }
         //For every Black starting on the second @Camille
         if (keyString == "e"|| keyString == "y" || keyString == "o" || keyString == "]"){ 
@@ -51,7 +50,7 @@ public class Visualizer extends Actor {
             int drawHeight = image.getHeight() - width / 2;
             int y = Greenfoot.getRandomNumber(drawHeight) + width / 4;
             Color color = k.getColor();
-            Oval shape = new Oval(width, width / 2, color);
+            Note shape = new Note();
             getWorld().addObject(shape, x, y);
         }
         //For every 3rd white key starting on the second @Marlene
